@@ -1,4 +1,5 @@
-﻿namespace ClinicSystem
+﻿
+namespace ClinicSystem
 {
     partial class receptionist
     {
@@ -29,333 +30,366 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(receptionist));
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.rjButton4 = new CustomControls.RJControls.RJButton();
-            this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.rjButton5 = new CustomControls.RJControls.RJButton();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.SuspendLayout();
+            panel6 = new Panel();
+            rjButton5 = new CustomControls.RJControls.RJButton();
+            rjButton1 = new CustomControls.RJControls.RJButton();
+            pictureBox12 = new PictureBox();
+            pictureBox13 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            label13 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            pictureBox15 = new PictureBox();
+            RPasswordTb = new TextBox();
+            label1 = new Label();
+            RPhoneTb = new TextBox();
+            label9 = new Label();
+            RNameTb = new TextBox();
+            label3 = new Label();
+            RAddressTb = new TextBox();
+            label10 = new Label();
+            EditBtn = new CustomControls.RJControls.RJButton();
+            DelBtn = new CustomControls.RJControls.RJButton();
+            AddBtn = new CustomControls.RJControls.RJButton();
+            receptionistDG = new DataGridView();
+            rjButton2 = new CustomControls.RJControls.RJButton();
+            panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)receptionistDG).BeginInit();
+            SuspendLayout();
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Teal;
-            this.panel6.Controls.Add(this.rjButton5);
-            this.panel6.Controls.Add(this.rjButton1);
-            this.panel6.Controls.Add(this.pictureBox12);
-            this.panel6.Controls.Add(this.pictureBox13);
-            this.panel6.Controls.Add(this.pictureBox14);
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.label15);
-            this.panel6.Controls.Add(this.pictureBox15);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(265, 742);
-            this.panel6.TabIndex = 27;
-            // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 18;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton1.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton1.Location = new System.Drawing.Point(53, 630);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(156, 48);
-            this.rjButton1.TabIndex = 25;
-            this.rjButton1.Text = "Logout";
-            this.rjButton1.TextColor = System.Drawing.Color.Teal;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(37, 481);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 23;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(37, 401);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 22;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(37, 317);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 21;
-            this.pictureBox14.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.MintCream;
-            this.label13.Location = new System.Drawing.Point(96, 481);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(142, 27);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Laboratory ";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.MintCream;
-            this.label14.Location = new System.Drawing.Point(96, 401);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 27);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "Doctors";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.MintCream;
-            this.label15.Location = new System.Drawing.Point(96, 317);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(103, 27);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "Patients";
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(68, 12);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(129, 92);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 3;
-            this.pictureBox15.TabStop = false;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(458, 200);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(203, 27);
-            this.textBox5.TabIndex = 69;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(309, 204);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 23);
-            this.label1.TabIndex = 68;
-            this.label1.Text = "Password";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(458, 139);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(203, 27);
-            this.textBox2.TabIndex = 67;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(309, 143);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(89, 23);
-            this.label9.TabIndex = 66;
-            this.label9.Text = "Number\r\n";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(458, 77);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(203, 27);
-            this.textBox1.TabIndex = 65;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(309, 81);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 23);
-            this.label3.TabIndex = 64;
-            this.label3.Text = "Name";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(309, 305);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(354, 243);
-            this.textBox3.TabIndex = 71;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Teal;
-            this.label10.Location = new System.Drawing.Point(309, 269);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(93, 23);
-            this.label10.TabIndex = 70;
-            this.label10.Text = "Address";
-            // 
-            // rjButton4
-            // 
-            this.rjButton4.BackColor = System.Drawing.Color.Teal;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.Teal;
-            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton4.BorderRadius = 18;
-            this.rjButton4.BorderSize = 0;
-            this.rjButton4.FlatAppearance.BorderSize = 0;
-            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton4.ForeColor = System.Drawing.Color.White;
-            this.rjButton4.Location = new System.Drawing.Point(565, 639);
-            this.rjButton4.Name = "rjButton4";
-            this.rjButton4.Size = new System.Drawing.Size(96, 39);
-            this.rjButton4.TabIndex = 74;
-            this.rjButton4.Text = "Edit";
-            this.rjButton4.TextColor = System.Drawing.Color.White;
-            this.rjButton4.UseVisualStyleBackColor = false;
-            // 
-            // rjButton3
-            // 
-            this.rjButton3.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton3.BorderRadius = 18;
-            this.rjButton3.BorderSize = 0;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton3.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton3.Location = new System.Drawing.Point(440, 639);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(107, 39);
-            this.rjButton3.TabIndex = 73;
-            this.rjButton3.Text = "Delete";
-            this.rjButton3.TextColor = System.Drawing.Color.Teal;
-            this.rjButton3.UseVisualStyleBackColor = false;
-            // 
-            // rjButton2
-            // 
-            this.rjButton2.BackColor = System.Drawing.Color.Teal;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.Teal;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 18;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(322, 639);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(96, 39);
-            this.rjButton2.TabIndex = 72;
-            this.rjButton2.Text = "Add";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(730, 77);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(548, 471);
-            this.panel1.TabIndex = 75;
+            panel6.BackColor = Color.Teal;
+            panel6.Controls.Add(rjButton5);
+            panel6.Controls.Add(rjButton1);
+            panel6.Controls.Add(pictureBox12);
+            panel6.Controls.Add(pictureBox13);
+            panel6.Controls.Add(pictureBox14);
+            panel6.Controls.Add(label13);
+            panel6.Controls.Add(label14);
+            panel6.Controls.Add(label15);
+            panel6.Controls.Add(pictureBox15);
+            panel6.Dock = DockStyle.Left;
+            panel6.Location = new Point(0, 0);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(265, 742);
+            panel6.TabIndex = 27;
             // 
             // rjButton5
             // 
-            this.rjButton5.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton5.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.rjButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton5.BorderRadius = 18;
-            this.rjButton5.BorderSize = 0;
-            this.rjButton5.FlatAppearance.BorderSize = 0;
-            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton5.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton5.Location = new System.Drawing.Point(-24, 182);
-            this.rjButton5.Name = "rjButton5";
-            this.rjButton5.Size = new System.Drawing.Size(306, 63);
-            this.rjButton5.TabIndex = 27;
-            this.rjButton5.Text = "Receptionist";
-            this.rjButton5.TextColor = System.Drawing.Color.Teal;
-            this.rjButton5.UseVisualStyleBackColor = false;
+            rjButton5.BackColor = SystemColors.Control;
+            rjButton5.BackgroundColor = SystemColors.Control;
+            rjButton5.BorderColor = Color.PaleVioletRed;
+            rjButton5.BorderRadius = 18;
+            rjButton5.BorderSize = 0;
+            rjButton5.FlatAppearance.BorderSize = 0;
+            rjButton5.FlatStyle = FlatStyle.Flat;
+            rjButton5.Font = new Font("Arial Rounded MT Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton5.ForeColor = Color.Teal;
+            rjButton5.Location = new Point(-24, 182);
+            rjButton5.Name = "rjButton5";
+            rjButton5.Size = new Size(306, 63);
+            rjButton5.TabIndex = 27;
+            rjButton5.Text = "Receptionist";
+            rjButton5.TextColor = Color.Teal;
+            rjButton5.UseVisualStyleBackColor = false;
+            // 
+            // rjButton1
+            // 
+            rjButton1.BackColor = Color.MintCream;
+            rjButton1.BackgroundColor = Color.MintCream;
+            rjButton1.BorderColor = Color.PaleVioletRed;
+            rjButton1.BorderRadius = 18;
+            rjButton1.BorderSize = 0;
+            rjButton1.FlatAppearance.BorderSize = 0;
+            rjButton1.FlatStyle = FlatStyle.Flat;
+            rjButton1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton1.ForeColor = Color.Teal;
+            rjButton1.Location = new Point(53, 630);
+            rjButton1.Name = "rjButton1";
+            rjButton1.Size = new Size(156, 48);
+            rjButton1.TabIndex = 25;
+            rjButton1.Text = "Logout";
+            rjButton1.TextColor = Color.Teal;
+            rjButton1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(37, 481);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(42, 39);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 23;
+            pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(37, 401);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(42, 39);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 22;
+            pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
+            pictureBox14.Location = new Point(37, 317);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(42, 39);
+            pictureBox14.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox14.TabIndex = 21;
+            pictureBox14.TabStop = false;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.ForeColor = Color.MintCream;
+            label13.Location = new Point(96, 481);
+            label13.Name = "label13";
+            label13.Size = new Size(142, 27);
+            label13.TabIndex = 19;
+            label13.Text = "Laboratory ";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = Color.MintCream;
+            label14.Location = new Point(96, 401);
+            label14.Name = "label14";
+            label14.Size = new Size(101, 27);
+            label14.TabIndex = 18;
+            label14.Text = "Doctors";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.ForeColor = Color.MintCream;
+            label15.Location = new Point(96, 317);
+            label15.Name = "label15";
+            label15.Size = new Size(103, 27);
+            label15.TabIndex = 17;
+            label15.Text = "Patients";
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(68, 12);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(129, 92);
+            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox15.TabIndex = 3;
+            pictureBox15.TabStop = false;
+            // 
+            // RPasswordTb
+            // 
+            RPasswordTb.Location = new Point(458, 200);
+            RPasswordTb.Name = "RPasswordTb";
+            RPasswordTb.Size = new Size(203, 27);
+            RPasswordTb.TabIndex = 69;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.Teal;
+            label1.Location = new Point(309, 204);
+            label1.Name = "label1";
+            label1.Size = new Size(107, 23);
+            label1.TabIndex = 68;
+            label1.Text = "Password";
+            // 
+            // RPhoneTb
+            // 
+            RPhoneTb.Location = new Point(458, 139);
+            RPhoneTb.Name = "RPhoneTb";
+            RPhoneTb.Size = new Size(203, 27);
+            RPhoneTb.TabIndex = 67;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.Teal;
+            label9.Location = new Point(309, 143);
+            label9.Name = "label9";
+            label9.Size = new Size(89, 23);
+            label9.TabIndex = 66;
+            label9.Text = "Number\r\n";
+            // 
+            // RNameTb
+            // 
+            RNameTb.Location = new Point(458, 77);
+            RNameTb.Name = "RNameTb";
+            RNameTb.Size = new Size(203, 27);
+            RNameTb.TabIndex = 65;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Teal;
+            label3.Location = new Point(309, 81);
+            label3.Name = "label3";
+            label3.Size = new Size(67, 23);
+            label3.TabIndex = 64;
+            label3.Text = "Name";
+            // 
+            // RAddressTb
+            // 
+            RAddressTb.Location = new Point(309, 305);
+            RAddressTb.Multiline = true;
+            RAddressTb.Name = "RAddressTb";
+            RAddressTb.Size = new Size(354, 243);
+            RAddressTb.TabIndex = 71;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.ForeColor = Color.Teal;
+            label10.Location = new Point(309, 269);
+            label10.Name = "label10";
+            label10.Size = new Size(93, 23);
+            label10.TabIndex = 70;
+            label10.Text = "Address";
+            // 
+            // EditBtn
+            // 
+            EditBtn.BackColor = Color.Teal;
+            EditBtn.BackgroundColor = Color.Teal;
+            EditBtn.BorderColor = Color.PaleVioletRed;
+            EditBtn.BorderRadius = 18;
+            EditBtn.BorderSize = 0;
+            EditBtn.FlatAppearance.BorderSize = 0;
+            EditBtn.FlatStyle = FlatStyle.Flat;
+            EditBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            EditBtn.ForeColor = Color.White;
+            EditBtn.Location = new Point(565, 639);
+            EditBtn.Name = "EditBtn";
+            EditBtn.Size = new Size(96, 39);
+            EditBtn.TabIndex = 74;
+            EditBtn.Text = "Edit";
+            EditBtn.TextColor = Color.White;
+            EditBtn.UseVisualStyleBackColor = false;
+            EditBtn.Click += EditBtn_Click;
+            // 
+            // DelBtn
+            // 
+            DelBtn.BackColor = Color.MintCream;
+            DelBtn.BackgroundColor = Color.MintCream;
+            DelBtn.BorderColor = Color.PaleVioletRed;
+            DelBtn.BorderRadius = 18;
+            DelBtn.BorderSize = 0;
+            DelBtn.FlatAppearance.BorderSize = 0;
+            DelBtn.FlatStyle = FlatStyle.Flat;
+            DelBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            DelBtn.ForeColor = Color.Teal;
+            DelBtn.Location = new Point(440, 639);
+            DelBtn.Name = "DelBtn";
+            DelBtn.Size = new Size(107, 39);
+            DelBtn.TabIndex = 73;
+            DelBtn.Text = "Delete";
+            DelBtn.TextColor = Color.Teal;
+            DelBtn.UseVisualStyleBackColor = false;
+            DelBtn.Click += DelBtn_Click;
+            // 
+            // AddBtn
+            // 
+            AddBtn.BackColor = Color.Teal;
+            AddBtn.BackgroundColor = Color.Teal;
+            AddBtn.BorderColor = Color.PaleVioletRed;
+            AddBtn.BorderRadius = 18;
+            AddBtn.BorderSize = 0;
+            AddBtn.FlatAppearance.BorderSize = 0;
+            AddBtn.FlatStyle = FlatStyle.Flat;
+            AddBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            AddBtn.ForeColor = Color.White;
+            AddBtn.Location = new Point(322, 639);
+            AddBtn.Name = "AddBtn";
+            AddBtn.Size = new Size(96, 39);
+            AddBtn.TabIndex = 72;
+            AddBtn.Text = "Add";
+            AddBtn.TextColor = Color.White;
+            AddBtn.UseVisualStyleBackColor = false;
+            AddBtn.Click += AddBtn_Click;
+            // 
+            // receptionistDG
+            // 
+            receptionistDG.BackgroundColor = SystemColors.Control;
+            receptionistDG.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            receptionistDG.Location = new Point(708, 77);
+            receptionistDG.Name = "receptionistDG";
+            receptionistDG.RowHeadersWidth = 51;
+            receptionistDG.RowTemplate.Height = 29;
+            receptionistDG.Size = new Size(600, 566);
+            receptionistDG.TabIndex = 75;
+            receptionistDG.SelectionChanged += receptionistDG_SelectionChanged;
+            // 
+            // rjButton2
+            // 
+            rjButton2.BackColor = Color.FromArgb(231, 76, 60);
+            rjButton2.BackgroundColor = Color.FromArgb(231, 76, 60);
+            rjButton2.BorderColor = Color.PaleVioletRed;
+            rjButton2.BorderRadius = 2;
+            rjButton2.BorderSize = 0;
+            rjButton2.FlatAppearance.BorderSize = 0;
+            rjButton2.FlatStyle = FlatStyle.Flat;
+            rjButton2.ForeColor = Color.White;
+            rjButton2.Image = (Image)resources.GetObject("rjButton2.Image");
+            rjButton2.Location = new Point(1283, 12);
+            rjButton2.Name = "rjButton2";
+            rjButton2.Size = new Size(25, 25);
+            rjButton2.TabIndex = 76;
+            rjButton2.TextColor = Color.White;
+            rjButton2.UseVisualStyleBackColor = false;
+            rjButton2.Click += rjButton2_Click;
             // 
             // receptionist
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1333, 742);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.rjButton4);
-            this.Controls.Add(this.rjButton3);
-            this.Controls.Add(this.rjButton2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panel6);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "receptionist";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "receptionist";
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1333, 742);
+            Controls.Add(rjButton2);
+            Controls.Add(receptionistDG);
+            Controls.Add(EditBtn);
+            Controls.Add(DelBtn);
+            Controls.Add(AddBtn);
+            Controls.Add(RAddressTb);
+            Controls.Add(label10);
+            Controls.Add(RPasswordTb);
+            Controls.Add(label1);
+            Controls.Add(RPhoneTb);
+            Controls.Add(label9);
+            Controls.Add(RNameTb);
+            Controls.Add(label3);
+            Controls.Add(panel6);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "receptionist";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "receptionist";
+            Load += receptionist_Load;
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)receptionistDG).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
+
+
 
         #endregion
 
@@ -368,18 +402,19 @@
         private Label label14;
         private Label label15;
         private PictureBox pictureBox15;
-        private TextBox textBox5;
+        private TextBox RPasswordTb;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox RPhoneTb;
         private Label label9;
-        private TextBox textBox1;
+        private TextBox RNameTb;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox RAddressTb;
         private Label label10;
-        private CustomControls.RJControls.RJButton rjButton4;
-        private CustomControls.RJControls.RJButton rjButton3;
-        private CustomControls.RJControls.RJButton rjButton2;
-        private Panel panel1;
+        private CustomControls.RJControls.RJButton EditBtn;
+        private CustomControls.RJControls.RJButton DelBtn;
+        private CustomControls.RJControls.RJButton AddBtn;
         private CustomControls.RJControls.RJButton rjButton5;
+        private DataGridView receptionistDG;
+        private CustomControls.RJControls.RJButton rjButton2;
     }
 }

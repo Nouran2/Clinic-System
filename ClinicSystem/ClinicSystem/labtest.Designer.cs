@@ -29,233 +29,251 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(labtest));
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.rjButton4 = new CustomControls.RJControls.RJButton();
-            this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton5 = new CustomControls.RJControls.RJButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
+            panel6 = new Panel();
+            pictureBox12 = new PictureBox();
+            rjButton2 = new CustomControls.RJControls.RJButton();
+            rjButton1 = new CustomControls.RJControls.RJButton();
+            pictureBox15 = new PictureBox();
+            label3 = new Label();
+            label1 = new Label();
+            labcostTB = new TextBox();
+            labtestTB = new TextBox();
+            EditBtn = new CustomControls.RJControls.RJButton();
+            rjButton3 = new CustomControls.RJControls.RJButton();
+            rjButton5 = new CustomControls.RJControls.RJButton();
+            pictureBox2 = new PictureBox();
+            panel1 = new Panel();
+            labtestDGV = new DataGridView();
+            panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)labtestDGV).BeginInit();
+            SuspendLayout();
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Teal;
-            this.panel6.Controls.Add(this.pictureBox12);
-            this.panel6.Controls.Add(this.rjButton2);
-            this.panel6.Controls.Add(this.rjButton1);
-            this.panel6.Controls.Add(this.pictureBox15);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(260, 712);
-            this.panel6.TabIndex = 27;
+            panel6.BackColor = Color.Teal;
+            panel6.Controls.Add(pictureBox12);
+            panel6.Controls.Add(rjButton2);
+            panel6.Controls.Add(rjButton1);
+            panel6.Controls.Add(pictureBox15);
+            panel6.Dock = DockStyle.Left;
+            panel6.Location = new Point(0, 0);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(260, 712);
+            panel6.TabIndex = 27;
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(22, 242);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(191, 139);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 29;
-            this.pictureBox12.TabStop = false;
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(22, 242);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(191, 139);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 29;
+            pictureBox12.TabStop = false;
             // 
             // rjButton2
             // 
-            this.rjButton2.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton2.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 18;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton2.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton2.Location = new System.Drawing.Point(-81, 144);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(396, 76);
-            this.rjButton2.TabIndex = 43;
-            this.rjButton2.Text = "Laboratory";
-            this.rjButton2.TextColor = System.Drawing.Color.Teal;
-            this.rjButton2.UseVisualStyleBackColor = false;
+            rjButton2.BackColor = SystemColors.Control;
+            rjButton2.BackgroundColor = SystemColors.Control;
+            rjButton2.BorderColor = Color.PaleVioletRed;
+            rjButton2.BorderRadius = 18;
+            rjButton2.BorderSize = 0;
+            rjButton2.FlatAppearance.BorderSize = 0;
+            rjButton2.FlatStyle = FlatStyle.Flat;
+            rjButton2.Font = new Font("Arial Rounded MT Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton2.ForeColor = Color.Teal;
+            rjButton2.Location = new Point(-81, 144);
+            rjButton2.Name = "rjButton2";
+            rjButton2.Size = new Size(396, 76);
+            rjButton2.TabIndex = 43;
+            rjButton2.Text = "Laboratory";
+            rjButton2.TextColor = Color.Teal;
+            rjButton2.UseVisualStyleBackColor = false;
             // 
             // rjButton1
             // 
-            this.rjButton1.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 18;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton1.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton1.Location = new System.Drawing.Point(37, 635);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(156, 48);
-            this.rjButton1.TabIndex = 25;
-            this.rjButton1.Text = "Logout";
-            this.rjButton1.TextColor = System.Drawing.Color.Teal;
-            this.rjButton1.UseVisualStyleBackColor = false;
+            rjButton1.BackColor = Color.MintCream;
+            rjButton1.BackgroundColor = Color.MintCream;
+            rjButton1.BorderColor = Color.PaleVioletRed;
+            rjButton1.BorderRadius = 18;
+            rjButton1.BorderSize = 0;
+            rjButton1.FlatAppearance.BorderSize = 0;
+            rjButton1.FlatStyle = FlatStyle.Flat;
+            rjButton1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton1.ForeColor = Color.Teal;
+            rjButton1.Location = new Point(37, 635);
+            rjButton1.Name = "rjButton1";
+            rjButton1.Size = new Size(156, 48);
+            rjButton1.TabIndex = 25;
+            rjButton1.Text = "Logout";
+            rjButton1.TextColor = Color.Teal;
+            rjButton1.UseVisualStyleBackColor = false;
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(64, 12);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(129, 92);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 3;
-            this.pictureBox15.TabStop = false;
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(64, 12);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(129, 92);
+            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox15.TabIndex = 3;
+            pictureBox15.TabStop = false;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(305, 118);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 23);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "Cost";
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Teal;
+            label3.Location = new Point(305, 118);
+            label3.Name = "label3";
+            label3.Size = new Size(55, 23);
+            label3.TabIndex = 29;
+            label3.Text = "Cost";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(305, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 23);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Test Name";
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.Teal;
+            label1.Location = new Point(305, 62);
+            label1.Name = "label1";
+            label1.Size = new Size(115, 23);
+            label1.TabIndex = 30;
+            label1.Text = "Test Name";
             // 
-            // textBox1
+            // labcostTB
             // 
-            this.textBox1.Location = new System.Drawing.Point(445, 118);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 27);
-            this.textBox1.TabIndex = 33;
+            labcostTB.Location = new Point(445, 118);
+            labcostTB.Name = "labcostTB";
+            labcostTB.Size = new Size(180, 27);
+            labcostTB.TabIndex = 33;
             // 
-            // textBox2
+            // labtestTB
             // 
-            this.textBox2.Location = new System.Drawing.Point(445, 62);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 27);
-            this.textBox2.TabIndex = 34;
+            labtestTB.Location = new Point(445, 62);
+            labtestTB.Name = "labtestTB";
+            labtestTB.Size = new Size(180, 27);
+            labtestTB.TabIndex = 34;
             // 
-            // rjButton4
+            // EditBtn
             // 
-            this.rjButton4.BackColor = System.Drawing.Color.Teal;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.Teal;
-            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton4.BorderRadius = 18;
-            this.rjButton4.BorderSize = 0;
-            this.rjButton4.FlatAppearance.BorderSize = 0;
-            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton4.ForeColor = System.Drawing.Color.White;
-            this.rjButton4.Location = new System.Drawing.Point(525, 644);
-            this.rjButton4.Name = "rjButton4";
-            this.rjButton4.Size = new System.Drawing.Size(96, 39);
-            this.rjButton4.TabIndex = 47;
-            this.rjButton4.Text = "Edit";
-            this.rjButton4.TextColor = System.Drawing.Color.White;
-            this.rjButton4.UseVisualStyleBackColor = false;
+            EditBtn.BackColor = Color.Teal;
+            EditBtn.BackgroundColor = Color.Teal;
+            EditBtn.BorderColor = Color.PaleVioletRed;
+            EditBtn.BorderRadius = 18;
+            EditBtn.BorderSize = 0;
+            EditBtn.FlatAppearance.BorderSize = 0;
+            EditBtn.FlatStyle = FlatStyle.Flat;
+            EditBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            EditBtn.ForeColor = Color.White;
+            EditBtn.Location = new Point(525, 644);
+            EditBtn.Name = "EditBtn";
+            EditBtn.Size = new Size(96, 39);
+            EditBtn.TabIndex = 47;
+            EditBtn.Text = "Edit";
+            EditBtn.TextColor = Color.White;
+            EditBtn.UseVisualStyleBackColor = false;
+            EditBtn.Click += EditBtn_Click;
             // 
             // rjButton3
             // 
-            this.rjButton3.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton3.BorderRadius = 18;
-            this.rjButton3.BorderSize = 0;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton3.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton3.Location = new System.Drawing.Point(400, 644);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(107, 39);
-            this.rjButton3.TabIndex = 46;
-            this.rjButton3.Text = "Delete";
-            this.rjButton3.TextColor = System.Drawing.Color.Teal;
-            this.rjButton3.UseVisualStyleBackColor = false;
+            rjButton3.BackColor = Color.MintCream;
+            rjButton3.BackgroundColor = Color.MintCream;
+            rjButton3.BorderColor = Color.PaleVioletRed;
+            rjButton3.BorderRadius = 18;
+            rjButton3.BorderSize = 0;
+            rjButton3.FlatAppearance.BorderSize = 0;
+            rjButton3.FlatStyle = FlatStyle.Flat;
+            rjButton3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton3.ForeColor = Color.Teal;
+            rjButton3.Location = new Point(400, 644);
+            rjButton3.Name = "rjButton3";
+            rjButton3.Size = new Size(107, 39);
+            rjButton3.TabIndex = 46;
+            rjButton3.Text = "Delete";
+            rjButton3.TextColor = Color.Teal;
+            rjButton3.UseVisualStyleBackColor = false;
+            rjButton3.Click += DelBtn;
             // 
             // rjButton5
             // 
-            this.rjButton5.BackColor = System.Drawing.Color.Teal;
-            this.rjButton5.BackgroundColor = System.Drawing.Color.Teal;
-            this.rjButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton5.BorderRadius = 18;
-            this.rjButton5.BorderSize = 0;
-            this.rjButton5.FlatAppearance.BorderSize = 0;
-            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton5.ForeColor = System.Drawing.Color.White;
-            this.rjButton5.Location = new System.Drawing.Point(282, 644);
-            this.rjButton5.Name = "rjButton5";
-            this.rjButton5.Size = new System.Drawing.Size(96, 39);
-            this.rjButton5.TabIndex = 45;
-            this.rjButton5.Text = "Add";
-            this.rjButton5.TextColor = System.Drawing.Color.White;
-            this.rjButton5.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(282, 218);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(507, 375);
-            this.panel1.TabIndex = 48;
+            rjButton5.BackColor = Color.Teal;
+            rjButton5.BackgroundColor = Color.Teal;
+            rjButton5.BorderColor = Color.PaleVioletRed;
+            rjButton5.BorderRadius = 18;
+            rjButton5.BorderSize = 0;
+            rjButton5.FlatAppearance.BorderSize = 0;
+            rjButton5.FlatStyle = FlatStyle.Flat;
+            rjButton5.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton5.ForeColor = Color.White;
+            rjButton5.Location = new Point(282, 644);
+            rjButton5.Name = "rjButton5";
+            rjButton5.Size = new Size(96, 39);
+            rjButton5.TabIndex = 45;
+            rjButton5.Text = "Add";
+            rjButton5.TextColor = Color.White;
+            rjButton5.UseVisualStyleBackColor = false;
+            rjButton5.Click += rjButton5_Click;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(817, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 27);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 49;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(804, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(25, 27);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 49;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(282, 218);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(0, 0);
+            panel1.TabIndex = 48;
+            // 
+            // labtestDGV
+            // 
+            labtestDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            labtestDGV.Location = new Point(282, 242);
+            labtestDGV.Name = "labtestDGV";
+            labtestDGV.RowHeadersWidth = 51;
+            labtestDGV.RowTemplate.Height = 29;
+            labtestDGV.Size = new Size(507, 375);
+            labtestDGV.TabIndex = 50;
+            labtestDGV.SelectionChanged += labtestDGV_SelectionChanged;
             // 
             // labtest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(841, 712);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.rjButton4);
-            this.Controls.Add(this.rjButton3);
-            this.Controls.Add(this.rjButton5);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panel6);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "labtest";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "labtest";
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(841, 712);
+            Controls.Add(labtestDGV);
+            Controls.Add(pictureBox2);
+            Controls.Add(panel1);
+            Controls.Add(EditBtn);
+            Controls.Add(rjButton3);
+            Controls.Add(rjButton5);
+            Controls.Add(labtestTB);
+            Controls.Add(labcostTB);
+            Controls.Add(label1);
+            Controls.Add(label3);
+            Controls.Add(panel6);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "labtest";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "labtest";
+            panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)labtestDGV).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -267,12 +285,13 @@
         private CustomControls.RJControls.RJButton rjButton2;
         private Label label3;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private CustomControls.RJControls.RJButton rjButton4;
+        private TextBox labcostTB;
+        private TextBox labtestTB;
+        private CustomControls.RJControls.RJButton EditBtn;
         private CustomControls.RJControls.RJButton rjButton3;
         private CustomControls.RJControls.RJButton rjButton5;
-        private Panel panel1;
         private PictureBox pictureBox2;
+        private Panel panel1;
+        private DataGridView labtestDGV;
     }
 }

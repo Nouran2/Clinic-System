@@ -29,585 +29,607 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(patient));
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton4 = new CustomControls.RJControls.RJButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.rjButton5 = new CustomControls.RJControls.RJButton();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
+            panel6 = new Panel();
+            rjButton2 = new CustomControls.RJControls.RJButton();
+            rjButton5 = new CustomControls.RJControls.RJButton();
+            rjButton1 = new CustomControls.RJControls.RJButton();
+            pictureBox11 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            pictureBox13 = new PictureBox();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            pictureBox15 = new PictureBox();
+            panel2 = new Panel();
+            panel5 = new Panel();
+            label6 = new Label();
+            label7 = new Label();
+            pictureBox6 = new PictureBox();
+            panel4 = new Panel();
+            label4 = new Label();
+            label5 = new Label();
+            pictureBox5 = new PictureBox();
+            panel3 = new Panel();
+            label2 = new Label();
+            label1 = new Label();
+            pictureBox4 = new PictureBox();
+            label3 = new Label();
+            label8 = new Label();
+            PatNameTb = new TextBox();
+            PatDOB = new DateTimePicker();
+            label9 = new Label();
+            PatPhoneTb = new TextBox();
+            PatHivCb = new ComboBox();
+            label10 = new Label();
+            label11 = new Label();
+            PatAddTb = new TextBox();
+            PatAllergiesTb = new TextBox();
+            AddBtn = new CustomControls.RJControls.RJButton();
+            DelBtn = new CustomControls.RJControls.RJButton();
+            EditBtn = new CustomControls.RJControls.RJButton();
+            PatGenCb = new ComboBox();
+            PatDG = new DataGridView();
+            rjButton6 = new CustomControls.RJControls.RJButton();
+            panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            panel2.SuspendLayout();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PatDG).BeginInit();
+            SuspendLayout();
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Teal;
-            this.panel6.Controls.Add(this.rjButton5);
-            this.panel6.Controls.Add(this.rjButton1);
-            this.panel6.Controls.Add(this.pictureBox11);
-            this.panel6.Controls.Add(this.pictureBox12);
-            this.panel6.Controls.Add(this.pictureBox13);
-            this.panel6.Controls.Add(this.label12);
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.pictureBox15);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(260, 742);
-            this.panel6.TabIndex = 26;
-            // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 18;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton1.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton1.Location = new System.Drawing.Point(53, 630);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(156, 48);
-            this.rjButton1.TabIndex = 25;
-            this.rjButton1.Text = "Logout";
-            this.rjButton1.TextColor = System.Drawing.Color.Teal;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(36, 487);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 24;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(36, 399);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 23;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(36, 318);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 22;
-            this.pictureBox13.TabStop = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.MintCream;
-            this.label12.Location = new System.Drawing.Point(95, 487);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(153, 27);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "Receptionist";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.MintCream;
-            this.label13.Location = new System.Drawing.Point(95, 399);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(142, 27);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Laboratory ";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.MintCream;
-            this.label14.Location = new System.Drawing.Point(95, 318);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 27);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "Doctors";
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(64, 12);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(129, 92);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 3;
-            this.pictureBox15.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(260, 732);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1073, 10);
-            this.panel2.TabIndex = 27;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.pictureBox6);
-            this.panel5.Location = new System.Drawing.Point(726, 42);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(311, 128);
-            this.panel5.TabIndex = 16;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(192, 63);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 23);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Labs";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.Teal;
-            this.label7.Location = new System.Drawing.Point(137, 14);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(167, 23);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Laboratory Test";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 15;
-            this.pictureBox6.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.pictureBox5);
-            this.panel4.Location = new System.Drawing.Point(378, 42);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(311, 128);
-            this.panel4.TabIndex = 15;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(177, 63);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 23);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Doctors";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(177, 14);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 23);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Doctors";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Location = new System.Drawing.Point(32, 42);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(311, 128);
-            this.panel3.TabIndex = 14;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(177, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 23);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Patients";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(177, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 23);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "Patients";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 15;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(292, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 23);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Patient Name";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(295, 133);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 23);
-            this.label8.TabIndex = 29;
-            this.label8.Text = "Date";
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioButton1.ForeColor = System.Drawing.Color.Teal;
-            this.radioButton1.Location = new System.Drawing.Point(562, 183);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(69, 24);
-            this.radioButton1.TabIndex = 30;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioButton2.ForeColor = System.Drawing.Color.Teal;
-            this.radioButton2.Location = new System.Drawing.Point(562, 213);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(96, 25);
-            this.radioButton2.TabIndex = 31;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(469, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 27);
-            this.textBox1.TabIndex = 32;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(379, 131);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(270, 27);
-            this.dateTimePicker1.TabIndex = 33;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(295, 81);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(155, 23);
-            this.label9.TabIndex = 34;
-            this.label9.Text = "Phone Number\r\n";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(469, 81);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 27);
-            this.textBox2.TabIndex = 35;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Positive",
-            "Negative"});
-            this.comboBox1.Location = new System.Drawing.Point(292, 198);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(222, 28);
-            this.comboBox1.TabIndex = 36;
-            this.comboBox1.Text = "HIV";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Teal;
-            this.label10.Location = new System.Drawing.Point(292, 415);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(93, 23);
-            this.label10.TabIndex = 38;
-            this.label10.Text = "Address";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.Teal;
-            this.label11.Location = new System.Drawing.Point(289, 261);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 23);
-            this.label11.TabIndex = 39;
-            this.label11.Text = "Allergies";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(292, 453);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(363, 151);
-            this.textBox3.TabIndex = 40;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(289, 296);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(366, 94);
-            this.textBox4.TabIndex = 41;
+            panel6.BackColor = Color.Teal;
+            panel6.Controls.Add(rjButton2);
+            panel6.Controls.Add(rjButton5);
+            panel6.Controls.Add(rjButton1);
+            panel6.Controls.Add(pictureBox11);
+            panel6.Controls.Add(pictureBox12);
+            panel6.Controls.Add(pictureBox13);
+            panel6.Controls.Add(label12);
+            panel6.Controls.Add(label13);
+            panel6.Controls.Add(label14);
+            panel6.Controls.Add(pictureBox15);
+            panel6.Dock = DockStyle.Left;
+            panel6.Location = new Point(0, 0);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(260, 742);
+            panel6.TabIndex = 26;
             // 
             // rjButton2
             // 
-            this.rjButton2.BackColor = System.Drawing.Color.Teal;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.Teal;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 18;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(292, 658);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(96, 39);
-            this.rjButton2.TabIndex = 42;
-            this.rjButton2.Text = "Add";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            // 
-            // rjButton3
-            // 
-            this.rjButton3.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton3.BorderRadius = 18;
-            this.rjButton3.BorderSize = 0;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton3.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton3.Location = new System.Drawing.Point(410, 658);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(107, 39);
-            this.rjButton3.TabIndex = 43;
-            this.rjButton3.Text = "Delete";
-            this.rjButton3.TextColor = System.Drawing.Color.Teal;
-            this.rjButton3.UseVisualStyleBackColor = false;
-            // 
-            // rjButton4
-            // 
-            this.rjButton4.BackColor = System.Drawing.Color.Teal;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.Teal;
-            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton4.BorderRadius = 18;
-            this.rjButton4.BorderSize = 0;
-            this.rjButton4.FlatAppearance.BorderSize = 0;
-            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton4.ForeColor = System.Drawing.Color.White;
-            this.rjButton4.Location = new System.Drawing.Point(535, 658);
-            this.rjButton4.Name = "rjButton4";
-            this.rjButton4.Size = new System.Drawing.Size(96, 39);
-            this.rjButton4.TabIndex = 44;
-            this.rjButton4.Text = "Edit";
-            this.rjButton4.TextColor = System.Drawing.Color.White;
-            this.rjButton4.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(725, 63);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(556, 566);
-            this.panel1.TabIndex = 45;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1308, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 27);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 46;
-            this.pictureBox2.TabStop = false;
+            rjButton2.BackColor = Color.MintCream;
+            rjButton2.BackgroundColor = Color.MintCream;
+            rjButton2.BorderColor = Color.PaleGreen;
+            rjButton2.BorderRadius = 18;
+            rjButton2.BorderSize = 0;
+            rjButton2.FlatAppearance.BorderSize = 0;
+            rjButton2.FlatStyle = FlatStyle.Flat;
+            rjButton2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton2.ForeColor = Color.Teal;
+            rjButton2.Location = new Point(53, 248);
+            rjButton2.Name = "rjButton2";
+            rjButton2.Size = new Size(156, 48);
+            rjButton2.TabIndex = 27;
+            rjButton2.Text = "Home";
+            rjButton2.TextColor = Color.Teal;
+            rjButton2.UseVisualStyleBackColor = false;
+            rjButton2.Click += rjButton2_Click;
             // 
             // rjButton5
             // 
-            this.rjButton5.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton5.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.rjButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton5.BorderRadius = 18;
-            this.rjButton5.BorderSize = 0;
-            this.rjButton5.FlatAppearance.BorderSize = 0;
-            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton5.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton5.Location = new System.Drawing.Point(-35, 160);
-            this.rjButton5.Name = "rjButton5";
-            this.rjButton5.Size = new System.Drawing.Size(306, 63);
-            this.rjButton5.TabIndex = 26;
-            this.rjButton5.Text = "Patient";
-            this.rjButton5.TextColor = System.Drawing.Color.Teal;
-            this.rjButton5.UseVisualStyleBackColor = false;
+            rjButton5.BackColor = SystemColors.Control;
+            rjButton5.BackgroundColor = SystemColors.Control;
+            rjButton5.BorderColor = Color.PaleVioletRed;
+            rjButton5.BorderRadius = 18;
+            rjButton5.BorderSize = 0;
+            rjButton5.FlatAppearance.BorderSize = 0;
+            rjButton5.FlatStyle = FlatStyle.Flat;
+            rjButton5.Font = new Font("Arial Rounded MT Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton5.ForeColor = Color.Teal;
+            rjButton5.Location = new Point(-35, 160);
+            rjButton5.Name = "rjButton5";
+            rjButton5.Size = new Size(306, 63);
+            rjButton5.TabIndex = 26;
+            rjButton5.Text = "Patient";
+            rjButton5.TextColor = Color.Teal;
+            rjButton5.UseVisualStyleBackColor = false;
+            // 
+            // rjButton1
+            // 
+            rjButton1.BackColor = Color.MintCream;
+            rjButton1.BackgroundColor = Color.MintCream;
+            rjButton1.BorderColor = Color.PaleVioletRed;
+            rjButton1.BorderRadius = 18;
+            rjButton1.BorderSize = 0;
+            rjButton1.FlatAppearance.BorderSize = 0;
+            rjButton1.FlatStyle = FlatStyle.Flat;
+            rjButton1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton1.ForeColor = Color.Teal;
+            rjButton1.Location = new Point(53, 630);
+            rjButton1.Name = "rjButton1";
+            rjButton1.Size = new Size(156, 48);
+            rjButton1.TabIndex = 25;
+            rjButton1.Text = "Logout";
+            rjButton1.TextColor = Color.Teal;
+            rjButton1.UseVisualStyleBackColor = false;
+            rjButton1.Click += rjButton1_Click;
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Location = new Point(36, 487);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(42, 39);
+            pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox11.TabIndex = 24;
+            pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(36, 399);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(42, 39);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 23;
+            pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(36, 318);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(42, 39);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 22;
+            pictureBox13.TabStop = false;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.ForeColor = Color.MintCream;
+            label12.Location = new Point(95, 487);
+            label12.Name = "label12";
+            label12.Size = new Size(153, 27);
+            label12.TabIndex = 20;
+            label12.Text = "Receptionist";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.ForeColor = Color.MintCream;
+            label13.Location = new Point(95, 399);
+            label13.Name = "label13";
+            label13.Size = new Size(142, 27);
+            label13.TabIndex = 19;
+            label13.Text = "Laboratory ";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = Color.MintCream;
+            label14.Location = new Point(95, 318);
+            label14.Name = "label14";
+            label14.Size = new Size(101, 27);
+            label14.TabIndex = 18;
+            label14.Text = "Doctors";
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(64, 12);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(129, 92);
+            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox15.TabIndex = 3;
+            pictureBox15.TabStop = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.WhiteSmoke;
+            panel2.Controls.Add(panel5);
+            panel2.Controls.Add(panel4);
+            panel2.Controls.Add(panel3);
+            panel2.Dock = DockStyle.Bottom;
+            panel2.Location = new Point(260, 732);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1073, 10);
+            panel2.TabIndex = 27;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.Transparent;
+            panel5.Controls.Add(label6);
+            panel5.Controls.Add(label7);
+            panel5.Controls.Add(pictureBox6);
+            panel5.Location = new Point(726, 42);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(311, 128);
+            panel5.TabIndex = 16;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.Teal;
+            label6.Location = new Point(192, 63);
+            label6.Name = "label6";
+            label6.Size = new Size(58, 23);
+            label6.TabIndex = 17;
+            label6.Text = "Labs";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = Color.Teal;
+            label7.Location = new Point(137, 14);
+            label7.Name = "label7";
+            label7.Size = new Size(167, 23);
+            label7.TabIndex = 16;
+            label7.Text = "Laboratory Test";
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(0, 0);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(131, 128);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 15;
+            pictureBox6.TabStop = false;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.Transparent;
+            panel4.Controls.Add(label4);
+            panel4.Controls.Add(label5);
+            panel4.Controls.Add(pictureBox5);
+            panel4.Location = new Point(378, 42);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(311, 128);
+            panel4.TabIndex = 15;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.Teal;
+            label4.Location = new Point(177, 63);
+            label4.Name = "label4";
+            label4.Size = new Size(88, 23);
+            label4.TabIndex = 17;
+            label4.Text = "Doctors";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = Color.Teal;
+            label5.Location = new Point(177, 14);
+            label5.Name = "label5";
+            label5.Size = new Size(88, 23);
+            label5.TabIndex = 16;
+            label5.Text = "Doctors";
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(0, 0);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(131, 128);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 15;
+            pictureBox5.TabStop = false;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Transparent;
+            panel3.Controls.Add(label2);
+            panel3.Controls.Add(label1);
+            panel3.Controls.Add(pictureBox4);
+            panel3.Location = new Point(32, 42);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(311, 128);
+            panel3.TabIndex = 14;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.Teal;
+            label2.Location = new Point(177, 63);
+            label2.Name = "label2";
+            label2.Size = new Size(89, 23);
+            label2.TabIndex = 17;
+            label2.Text = "Patients";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.Teal;
+            label1.Location = new Point(177, 14);
+            label1.Name = "label1";
+            label1.Size = new Size(89, 23);
+            label1.TabIndex = 16;
+            label1.Text = "Patients";
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(0, 0);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(131, 128);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 15;
+            pictureBox4.TabStop = false;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Teal;
+            label3.Location = new Point(292, 30);
+            label3.Name = "label3";
+            label3.Size = new Size(140, 23);
+            label3.TabIndex = 28;
+            label3.Text = "Patient Name";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.ForeColor = Color.Teal;
+            label8.Location = new Point(295, 133);
+            label8.Name = "label8";
+            label8.Size = new Size(56, 23);
+            label8.TabIndex = 29;
+            label8.Text = "Date";
+            // 
+            // PatNameTb
+            // 
+            PatNameTb.Location = new Point(469, 30);
+            PatNameTb.Name = "PatNameTb";
+            PatNameTb.Size = new Size(180, 27);
+            PatNameTb.TabIndex = 32;
+            // 
+            // PatDOB
+            // 
+            PatDOB.Location = new Point(379, 131);
+            PatDOB.Name = "PatDOB";
+            PatDOB.Size = new Size(270, 27);
+            PatDOB.TabIndex = 33;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.Teal;
+            label9.Location = new Point(295, 81);
+            label9.Name = "label9";
+            label9.Size = new Size(155, 23);
+            label9.TabIndex = 34;
+            label9.Text = "Phone Number\r\n";
+            // 
+            // PatPhoneTb
+            // 
+            PatPhoneTb.Location = new Point(469, 81);
+            PatPhoneTb.Name = "PatPhoneTb";
+            PatPhoneTb.Size = new Size(180, 27);
+            PatPhoneTb.TabIndex = 35;
+            // 
+            // PatHivCb
+            // 
+            PatHivCb.FormattingEnabled = true;
+            PatHivCb.Items.AddRange(new object[] { "Positive", "Negative" });
+            PatHivCb.Location = new Point(292, 198);
+            PatHivCb.Name = "PatHivCb";
+            PatHivCb.Size = new Size(150, 28);
+            PatHivCb.TabIndex = 36;
+            PatHivCb.Text = "HIV";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.ForeColor = Color.Teal;
+            label10.Location = new Point(292, 415);
+            label10.Name = "label10";
+            label10.Size = new Size(93, 23);
+            label10.TabIndex = 38;
+            label10.Text = "Address";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.Teal;
+            label11.Location = new Point(289, 261);
+            label11.Name = "label11";
+            label11.Size = new Size(96, 23);
+            label11.TabIndex = 39;
+            label11.Text = "Allergies";
+            // 
+            // PatAddTb
+            // 
+            PatAddTb.Location = new Point(292, 453);
+            PatAddTb.Multiline = true;
+            PatAddTb.Name = "PatAddTb";
+            PatAddTb.Size = new Size(363, 151);
+            PatAddTb.TabIndex = 40;
+            // 
+            // PatAllergiesTb
+            // 
+            PatAllergiesTb.Location = new Point(289, 296);
+            PatAllergiesTb.Multiline = true;
+            PatAllergiesTb.Name = "PatAllergiesTb";
+            PatAllergiesTb.Size = new Size(366, 94);
+            PatAllergiesTb.TabIndex = 41;
+            // 
+            // AddBtn
+            // 
+            AddBtn.BackColor = Color.Teal;
+            AddBtn.BackgroundColor = Color.Teal;
+            AddBtn.BorderColor = Color.PaleVioletRed;
+            AddBtn.BorderRadius = 18;
+            AddBtn.BorderSize = 0;
+            AddBtn.FlatAppearance.BorderSize = 0;
+            AddBtn.FlatStyle = FlatStyle.Flat;
+            AddBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            AddBtn.ForeColor = Color.White;
+            AddBtn.Location = new Point(292, 658);
+            AddBtn.Name = "AddBtn";
+            AddBtn.Size = new Size(96, 39);
+            AddBtn.TabIndex = 42;
+            AddBtn.Text = "Add";
+            AddBtn.TextColor = Color.White;
+            AddBtn.UseVisualStyleBackColor = false;
+            AddBtn.Click += AddBtn_Click;
+            // 
+            // DelBtn
+            // 
+            DelBtn.BackColor = Color.MintCream;
+            DelBtn.BackgroundColor = Color.MintCream;
+            DelBtn.BorderColor = Color.PaleVioletRed;
+            DelBtn.BorderRadius = 18;
+            DelBtn.BorderSize = 0;
+            DelBtn.FlatAppearance.BorderSize = 0;
+            DelBtn.FlatStyle = FlatStyle.Flat;
+            DelBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            DelBtn.ForeColor = Color.Teal;
+            DelBtn.Location = new Point(410, 658);
+            DelBtn.Name = "DelBtn";
+            DelBtn.Size = new Size(107, 39);
+            DelBtn.TabIndex = 43;
+            DelBtn.Text = "Delete";
+            DelBtn.TextColor = Color.Teal;
+            DelBtn.UseVisualStyleBackColor = false;
+            DelBtn.Click += DelBtn_Click;
+            // 
+            // EditBtn
+            // 
+            EditBtn.BackColor = Color.Teal;
+            EditBtn.BackgroundColor = Color.Teal;
+            EditBtn.BorderColor = Color.PaleVioletRed;
+            EditBtn.BorderRadius = 18;
+            EditBtn.BorderSize = 0;
+            EditBtn.FlatAppearance.BorderSize = 0;
+            EditBtn.FlatStyle = FlatStyle.Flat;
+            EditBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            EditBtn.ForeColor = Color.White;
+            EditBtn.Location = new Point(535, 658);
+            EditBtn.Name = "EditBtn";
+            EditBtn.Size = new Size(96, 39);
+            EditBtn.TabIndex = 44;
+            EditBtn.Text = "Edit";
+            EditBtn.TextColor = Color.White;
+            EditBtn.UseVisualStyleBackColor = false;
+            EditBtn.Click += EditBtn_Click;
+            // 
+            // PatGenCb
+            // 
+            PatGenCb.ForeColor = Color.Teal;
+            PatGenCb.FormattingEnabled = true;
+            PatGenCb.Items.AddRange(new object[] { "Male\t", "Female" });
+            PatGenCb.Location = new Point(499, 198);
+            PatGenCb.Name = "PatGenCb";
+            PatGenCb.Size = new Size(150, 28);
+            PatGenCb.TabIndex = 47;
+            PatGenCb.Text = "Gender";
+            // 
+            // PatDG
+            // 
+            PatDG.BackgroundColor = SystemColors.ButtonHighlight;
+            PatDG.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            PatDG.GridColor = Color.HotPink;
+            PatDG.Location = new Point(734, 30);
+            PatDG.Name = "PatDG";
+            PatDG.RowHeadersWidth = 51;
+            PatDG.RowTemplate.Height = 29;
+            PatDG.Size = new Size(556, 566);
+            PatDG.TabIndex = 66;
+            PatDG.CellContentClick += PatDG_CellContentClick;
+            PatDG.SelectionChanged += PatDG_Sc;
+            // 
+            // rjButton6
+            // 
+            rjButton6.BackColor = Color.FromArgb(231, 76, 60);
+            rjButton6.BackgroundColor = Color.FromArgb(231, 76, 60);
+            rjButton6.BorderColor = Color.PaleVioletRed;
+            rjButton6.BorderRadius = 0;
+            rjButton6.BorderSize = 0;
+            rjButton6.FlatAppearance.BorderSize = 0;
+            rjButton6.FlatStyle = FlatStyle.Flat;
+            rjButton6.ForeColor = Color.White;
+            rjButton6.Image = (Image)resources.GetObject("rjButton6.Image");
+            rjButton6.Location = new Point(1296, 12);
+            rjButton6.Name = "rjButton6";
+            rjButton6.Size = new Size(25, 25);
+            rjButton6.TabIndex = 77;
+            rjButton6.TextColor = Color.White;
+            rjButton6.UseVisualStyleBackColor = false;
+            rjButton6.Click += rjButton6_Click;
             // 
             // patient
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1333, 742);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.rjButton4);
-            this.Controls.Add(this.rjButton3);
-            this.Controls.Add(this.rjButton2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel6);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "patient";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "patient";
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1333, 742);
+            Controls.Add(rjButton6);
+            Controls.Add(PatDG);
+            Controls.Add(PatGenCb);
+            Controls.Add(EditBtn);
+            Controls.Add(DelBtn);
+            Controls.Add(AddBtn);
+            Controls.Add(PatAllergiesTb);
+            Controls.Add(PatAddTb);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(PatHivCb);
+            Controls.Add(PatPhoneTb);
+            Controls.Add(label9);
+            Controls.Add(PatDOB);
+            Controls.Add(PatNameTb);
+            Controls.Add(label8);
+            Controls.Add(label3);
+            Controls.Add(panel2);
+            Controls.Add(panel6);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "patient";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "patient";
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            panel2.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PatDG).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -636,22 +658,22 @@
         private PictureBox pictureBox4;
         private Label label3;
         private Label label8;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private TextBox textBox1;
-        private DateTimePicker dateTimePicker1;
+        private TextBox PatNameTb;
+        private DateTimePicker PatDOB;
         private Label label9;
-        private TextBox textBox2;
-        private ComboBox comboBox1;
+        private TextBox PatPhoneTb;
+        private ComboBox PatHivCb;
         private Label label10;
         private Label label11;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private CustomControls.RJControls.RJButton rjButton2;
-        private CustomControls.RJControls.RJButton rjButton3;
-        private CustomControls.RJControls.RJButton rjButton4;
-        private Panel panel1;
-        private PictureBox pictureBox2;
+        private TextBox PatAddTb;
+        private TextBox PatAllergiesTb;
+        private CustomControls.RJControls.RJButton AddBtn;
+        private CustomControls.RJControls.RJButton DelBtn;
+        private CustomControls.RJControls.RJButton EditBtn;
         private CustomControls.RJControls.RJButton rjButton5;
+        private ComboBox PatGenCb;
+        private DataGridView PatDG;
+        private CustomControls.RJControls.RJButton rjButton6;
+        private CustomControls.RJControls.RJButton rjButton2;
     }
 }

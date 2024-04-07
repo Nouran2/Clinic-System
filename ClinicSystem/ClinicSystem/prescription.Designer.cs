@@ -29,416 +29,458 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(prescription));
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.rjButton5 = new CustomControls.RJControls.RJButton();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            this.SuspendLayout();
+            panel6 = new Panel();
+            pictureBox11 = new PictureBox();
+            label12 = new Label();
+            rjButton5 = new CustomControls.RJControls.RJButton();
+            rjButton1 = new CustomControls.RJControls.RJButton();
+            pictureBox12 = new PictureBox();
+            pictureBox13 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            label13 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            pictureBox15 = new PictureBox();
+            TestTb = new TextBox();
+            label1 = new Label();
+            PatNameTb = new TextBox();
+            label9 = new Label();
+            DocNameTb = new TextBox();
+            label3 = new Label();
+            DocIdCb = new ComboBox();
+            TestidCb = new ComboBox();
+            PatIdCb = new ComboBox();
+            CostTb = new TextBox();
+            label2 = new Label();
+            MedicineTb = new TextBox();
+            label11 = new Label();
+            PrintBtn = new CustomControls.RJControls.RJButton();
+            rjButton2 = new CustomControls.RJControls.RJButton();
+            label4 = new Label();
+            panel1 = new Panel();
+            PreseriptionDG = new DataGridView();
+            PreTxt = new RichTextBox();
+            printDocument1 = new System.Drawing.Printing.PrintDocument();
+            printPreviewDialog1 = new PrintPreviewDialog();
+            panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PreseriptionDG).BeginInit();
+            SuspendLayout();
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Teal;
-            this.panel6.Controls.Add(this.pictureBox11);
-            this.panel6.Controls.Add(this.label12);
-            this.panel6.Controls.Add(this.rjButton5);
-            this.panel6.Controls.Add(this.rjButton1);
-            this.panel6.Controls.Add(this.pictureBox12);
-            this.panel6.Controls.Add(this.pictureBox13);
-            this.panel6.Controls.Add(this.pictureBox14);
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.label15);
-            this.panel6.Controls.Add(this.pictureBox15);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(265, 742);
-            this.panel6.TabIndex = 28;
-            // 
-            // rjButton5
-            // 
-            this.rjButton5.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton5.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.rjButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton5.BorderRadius = 18;
-            this.rjButton5.BorderSize = 0;
-            this.rjButton5.FlatAppearance.BorderSize = 0;
-            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton5.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton5.Location = new System.Drawing.Point(-24, 182);
-            this.rjButton5.Name = "rjButton5";
-            this.rjButton5.Size = new System.Drawing.Size(306, 63);
-            this.rjButton5.TabIndex = 27;
-            this.rjButton5.Text = "Prescription";
-            this.rjButton5.TextColor = System.Drawing.Color.Teal;
-            this.rjButton5.UseVisualStyleBackColor = false;
-            // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 18;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton1.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton1.Location = new System.Drawing.Point(43, 665);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(156, 48);
-            this.rjButton1.TabIndex = 25;
-            this.rjButton1.Text = "Logout";
-            this.rjButton1.TextColor = System.Drawing.Color.Teal;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(33, 481);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 23;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(33, 410);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 22;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(33, 338);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 21;
-            this.pictureBox14.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.MintCream;
-            this.label13.Location = new System.Drawing.Point(96, 481);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(142, 27);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Laboratory ";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.MintCream;
-            this.label14.Location = new System.Drawing.Point(96, 401);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 27);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "Doctors";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.MintCream;
-            this.label15.Location = new System.Drawing.Point(96, 338);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(103, 27);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "Patients";
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(68, 12);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(129, 92);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 3;
-            this.pictureBox15.TabStop = false;
+            panel6.BackColor = Color.Teal;
+            panel6.Controls.Add(pictureBox11);
+            panel6.Controls.Add(label12);
+            panel6.Controls.Add(rjButton5);
+            panel6.Controls.Add(rjButton1);
+            panel6.Controls.Add(pictureBox12);
+            panel6.Controls.Add(pictureBox13);
+            panel6.Controls.Add(pictureBox14);
+            panel6.Controls.Add(label13);
+            panel6.Controls.Add(label14);
+            panel6.Controls.Add(label15);
+            panel6.Controls.Add(pictureBox15);
+            panel6.Dock = DockStyle.Left;
+            panel6.Location = new Point(0, 0);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(265, 742);
+            panel6.TabIndex = 28;
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(33, 559);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 31;
-            this.pictureBox11.TabStop = false;
+            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Location = new Point(33, 559);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(42, 39);
+            pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox11.TabIndex = 31;
+            pictureBox11.TabStop = false;
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.MintCream;
-            this.label12.Location = new System.Drawing.Point(85, 559);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(153, 27);
-            this.label12.TabIndex = 30;
-            this.label12.Text = "Receptionist";
+            label12.AutoSize = true;
+            label12.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.ForeColor = Color.MintCream;
+            label12.Location = new Point(85, 559);
+            label12.Name = "label12";
+            label12.Size = new Size(153, 27);
+            label12.TabIndex = 30;
+            label12.Text = "Receptionist";
             // 
-            // textBox5
+            // rjButton5
             // 
-            this.textBox5.Location = new System.Drawing.Point(493, 159);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(180, 27);
-            this.textBox5.TabIndex = 69;
+            rjButton5.BackColor = SystemColors.Control;
+            rjButton5.BackgroundColor = SystemColors.Control;
+            rjButton5.BorderColor = Color.PaleVioletRed;
+            rjButton5.BorderRadius = 18;
+            rjButton5.BorderSize = 0;
+            rjButton5.FlatAppearance.BorderSize = 0;
+            rjButton5.FlatStyle = FlatStyle.Flat;
+            rjButton5.Font = new Font("Arial Rounded MT Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton5.ForeColor = Color.Teal;
+            rjButton5.Location = new Point(-24, 182);
+            rjButton5.Name = "rjButton5";
+            rjButton5.Size = new Size(306, 63);
+            rjButton5.TabIndex = 27;
+            rjButton5.Text = "Prescription";
+            rjButton5.TextColor = Color.Teal;
+            rjButton5.UseVisualStyleBackColor = false;
+            // 
+            // rjButton1
+            // 
+            rjButton1.BackColor = Color.MintCream;
+            rjButton1.BackgroundColor = Color.MintCream;
+            rjButton1.BorderColor = Color.PaleVioletRed;
+            rjButton1.BorderRadius = 18;
+            rjButton1.BorderSize = 0;
+            rjButton1.FlatAppearance.BorderSize = 0;
+            rjButton1.FlatStyle = FlatStyle.Flat;
+            rjButton1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton1.ForeColor = Color.Teal;
+            rjButton1.Location = new Point(43, 665);
+            rjButton1.Name = "rjButton1";
+            rjButton1.Size = new Size(156, 48);
+            rjButton1.TabIndex = 25;
+            rjButton1.Text = "Logout";
+            rjButton1.TextColor = Color.Teal;
+            rjButton1.UseVisualStyleBackColor = false;
+            rjButton1.Click += rjButton1_Click;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(33, 481);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(42, 39);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 23;
+            pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(33, 410);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(42, 39);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 22;
+            pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
+            pictureBox14.Location = new Point(33, 338);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(42, 39);
+            pictureBox14.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox14.TabIndex = 21;
+            pictureBox14.TabStop = false;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.ForeColor = Color.MintCream;
+            label13.Location = new Point(96, 481);
+            label13.Name = "label13";
+            label13.Size = new Size(142, 27);
+            label13.TabIndex = 19;
+            label13.Text = "Laboratory ";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = Color.MintCream;
+            label14.Location = new Point(96, 401);
+            label14.Name = "label14";
+            label14.Size = new Size(101, 27);
+            label14.TabIndex = 18;
+            label14.Text = "Doctors";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.ForeColor = Color.MintCream;
+            label15.Location = new Point(96, 338);
+            label15.Name = "label15";
+            label15.Size = new Size(103, 27);
+            label15.TabIndex = 17;
+            label15.Text = "Patients";
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(68, 12);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(129, 92);
+            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox15.TabIndex = 3;
+            pictureBox15.TabStop = false;
+            // 
+            // TestTb
+            // 
+            TestTb.Enabled = false;
+            TestTb.Location = new Point(493, 159);
+            TestTb.Name = "TestTb";
+            TestTb.Size = new Size(180, 27);
+            TestTb.TabIndex = 69;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(322, 163);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 23);
-            this.label1.TabIndex = 68;
-            this.label1.Text = "Test";
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.Teal;
+            label1.Location = new Point(322, 163);
+            label1.Name = "label1";
+            label1.Size = new Size(53, 23);
+            label1.TabIndex = 68;
+            label1.Text = "Test";
             // 
-            // textBox2
+            // PatNameTb
             // 
-            this.textBox2.Location = new System.Drawing.Point(493, 106);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 27);
-            this.textBox2.TabIndex = 67;
+            PatNameTb.Enabled = false;
+            PatNameTb.Location = new Point(493, 106);
+            PatNameTb.Name = "PatNameTb";
+            PatNameTb.Size = new Size(180, 27);
+            PatNameTb.TabIndex = 67;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(322, 106);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(140, 23);
-            this.label9.TabIndex = 66;
-            this.label9.Text = "Patient Name";
+            label9.AutoSize = true;
+            label9.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.Teal;
+            label9.Location = new Point(322, 106);
+            label9.Name = "label9";
+            label9.Size = new Size(140, 23);
+            label9.TabIndex = 66;
+            label9.Text = "Patient Name";
             // 
-            // textBox1
+            // DocNameTb
             // 
-            this.textBox1.Location = new System.Drawing.Point(493, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 27);
-            this.textBox1.TabIndex = 65;
+            DocNameTb.Enabled = false;
+            DocNameTb.Location = new Point(493, 52);
+            DocNameTb.Name = "DocNameTb";
+            DocNameTb.Size = new Size(180, 27);
+            DocNameTb.TabIndex = 65;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(322, 52);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 23);
-            this.label3.TabIndex = 64;
-            this.label3.Text = "Doctor Name";
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Teal;
+            label3.Location = new Point(322, 52);
+            label3.Name = "label3";
+            label3.Size = new Size(139, 23);
+            label3.TabIndex = 64;
+            label3.Text = "Doctor Name";
             // 
-            // comboBox1
+            // DocIdCb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(738, 52);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(118, 28);
-            this.comboBox1.TabIndex = 70;
-            this.comboBox1.Text = "Doctor ID";
+            DocIdCb.FormattingEnabled = true;
+            DocIdCb.Location = new Point(738, 52);
+            DocIdCb.Name = "DocIdCb";
+            DocIdCb.Size = new Size(118, 28);
+            DocIdCb.TabIndex = 70;
+            DocIdCb.Text = "Doctor ID";
+            DocIdCb.SelectionChangeCommitted += DocIdCb_SelectionChangeCommitted;
             // 
-            // comboBox2
+            // TestidCb
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(738, 158);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(118, 28);
-            this.comboBox2.TabIndex = 71;
-            this.comboBox2.Text = "Test ID";
+            TestidCb.FormattingEnabled = true;
+            TestidCb.Location = new Point(738, 163);
+            TestidCb.Name = "TestidCb";
+            TestidCb.Size = new Size(118, 28);
+            TestidCb.TabIndex = 71;
+            TestidCb.Text = "Test ID";
+            TestidCb.SelectionChangeCommitted += TestidCb_SelectionChangeCommitted;
             // 
-            // comboBox3
+            // PatIdCb
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(738, 105);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(118, 28);
-            this.comboBox3.TabIndex = 72;
-            this.comboBox3.Text = "Patient ID";
+            PatIdCb.FormattingEnabled = true;
+            PatIdCb.Location = new Point(738, 106);
+            PatIdCb.Name = "PatIdCb";
+            PatIdCb.Size = new Size(118, 28);
+            PatIdCb.TabIndex = 72;
+            PatIdCb.Text = "Patient ID";
+            PatIdCb.SelectionChangeCommitted += PatIdCb_SelectionChangeCommitted;
             // 
-            // textBox3
+            // CostTb
             // 
-            this.textBox3.Location = new System.Drawing.Point(493, 222);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(180, 27);
-            this.textBox3.TabIndex = 74;
+            CostTb.Enabled = false;
+            CostTb.Location = new Point(493, 222);
+            CostTb.Name = "CostTb";
+            CostTb.Size = new Size(180, 27);
+            CostTb.TabIndex = 74;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(322, 222);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 23);
-            this.label2.TabIndex = 73;
-            this.label2.Text = "Cost";
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.Teal;
+            label2.Location = new Point(322, 222);
+            label2.Name = "label2";
+            label2.Size = new Size(55, 23);
+            label2.TabIndex = 73;
+            label2.Text = "Cost";
             // 
-            // textBox4
+            // MedicineTb
             // 
-            this.textBox4.Location = new System.Drawing.Point(325, 320);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(348, 108);
-            this.textBox4.TabIndex = 76;
+            MedicineTb.Location = new Point(325, 320);
+            MedicineTb.Multiline = true;
+            MedicineTb.Name = "MedicineTb";
+            MedicineTb.Size = new Size(348, 108);
+            MedicineTb.TabIndex = 76;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.Teal;
-            this.label11.Location = new System.Drawing.Point(322, 284);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(98, 23);
-            this.label11.TabIndex = 75;
-            this.label11.Text = "Medicine";
+            label11.AutoSize = true;
+            label11.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.Teal;
+            label11.Location = new Point(322, 284);
+            label11.Name = "label11";
+            label11.Size = new Size(98, 23);
+            label11.TabIndex = 75;
+            label11.Text = "Medicine";
             // 
-            // rjButton3
+            // PrintBtn
             // 
-            this.rjButton3.BackColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BackgroundColor = System.Drawing.Color.MintCream;
-            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton3.BorderRadius = 18;
-            this.rjButton3.BorderSize = 0;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton3.ForeColor = System.Drawing.Color.Teal;
-            this.rjButton3.Location = new System.Drawing.Point(1142, 609);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(107, 39);
-            this.rjButton3.TabIndex = 78;
-            this.rjButton3.Text = "Delete";
-            this.rjButton3.TextColor = System.Drawing.Color.Teal;
-            this.rjButton3.UseVisualStyleBackColor = false;
+            PrintBtn.BackColor = Color.MintCream;
+            PrintBtn.BackgroundColor = Color.MintCream;
+            PrintBtn.BorderColor = Color.PaleVioletRed;
+            PrintBtn.BorderRadius = 18;
+            PrintBtn.BorderSize = 0;
+            PrintBtn.FlatAppearance.BorderSize = 0;
+            PrintBtn.FlatStyle = FlatStyle.Flat;
+            PrintBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            PrintBtn.ForeColor = Color.Teal;
+            PrintBtn.Location = new Point(1142, 609);
+            PrintBtn.Name = "PrintBtn";
+            PrintBtn.Size = new Size(107, 39);
+            PrintBtn.TabIndex = 78;
+            PrintBtn.Text = "Print";
+            PrintBtn.TextColor = Color.Teal;
+            PrintBtn.UseVisualStyleBackColor = false;
+            PrintBtn.Click += PrintBtn_Click;
             // 
             // rjButton2
             // 
-            this.rjButton2.BackColor = System.Drawing.Color.Teal;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.Teal;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 18;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(980, 609);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(96, 39);
-            this.rjButton2.TabIndex = 77;
-            this.rjButton2.Text = "Add";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(909, 85);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(393, 467);
-            this.richTextBox1.TabIndex = 79;
-            this.richTextBox1.Text = "";
+            rjButton2.BackColor = Color.Teal;
+            rjButton2.BackgroundColor = Color.Teal;
+            rjButton2.BorderColor = Color.PaleVioletRed;
+            rjButton2.BorderRadius = 18;
+            rjButton2.BorderSize = 0;
+            rjButton2.FlatAppearance.BorderSize = 0;
+            rjButton2.FlatStyle = FlatStyle.Flat;
+            rjButton2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            rjButton2.ForeColor = Color.White;
+            rjButton2.Location = new Point(980, 609);
+            rjButton2.Name = "rjButton2";
+            rjButton2.Size = new Size(96, 39);
+            rjButton2.TabIndex = 77;
+            rjButton2.Text = "Add";
+            rjButton2.TextColor = Color.White;
+            rjButton2.UseVisualStyleBackColor = false;
+            rjButton2.Click += rjButton2_Click;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(1013, 47);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 32);
-            this.label4.TabIndex = 80;
-            this.label4.Text = "Prescription";
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial Rounded MT Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.Teal;
+            label4.Location = new Point(1013, 47);
+            label4.Name = "label4";
+            label4.Size = new Size(184, 32);
+            label4.TabIndex = 80;
+            label4.Text = "Prescription";
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(325, 454);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(348, 259);
-            this.panel1.TabIndex = 81;
+            panel1.Location = new Point(325, 454);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(0, 0);
+            panel1.TabIndex = 81;
+            // 
+            // PreseriptionDG
+            // 
+            PreseriptionDG.BackgroundColor = SystemColors.ControlLight;
+            PreseriptionDG.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            PreseriptionDG.Location = new Point(323, 453);
+            PreseriptionDG.Name = "PreseriptionDG";
+            PreseriptionDG.RowHeadersWidth = 51;
+            PreseriptionDG.RowTemplate.Height = 29;
+            PreseriptionDG.Size = new Size(350, 260);
+            PreseriptionDG.TabIndex = 82;
+            PreseriptionDG.SelectionChanged += PreseriptionDG_SelectionChanged;
+            // 
+            // PreTxt
+            // 
+            PreTxt.Location = new Point(902, 108);
+            PreTxt.Name = "PreTxt";
+            PreTxt.Size = new Size(400, 400);
+            PreTxt.TabIndex = 83;
+            PreTxt.Text = "";
+            // 
+            // printDocument1
+            // 
+            printDocument1.PrintPage += printDocument1_PrintPage;
+            // 
+            // printPreviewDialog1
+            // 
+            printPreviewDialog1.AutoScrollMargin = new Size(0, 0);
+            printPreviewDialog1.AutoScrollMinSize = new Size(0, 0);
+            printPreviewDialog1.ClientSize = new Size(400, 300);
+            printPreviewDialog1.Document = printDocument1;
+            printPreviewDialog1.Enabled = true;
+            printPreviewDialog1.Icon = (Icon)resources.GetObject("printPreviewDialog1.Icon");
+            printPreviewDialog1.Name = "printPreviewDialog1";
+            printPreviewDialog1.Visible = false;
             // 
             // prescription
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1333, 742);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.rjButton3);
-            this.Controls.Add(this.rjButton2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panel6);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "prescription";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "prescription";
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1333, 742);
+            Controls.Add(PreTxt);
+            Controls.Add(PreseriptionDG);
+            Controls.Add(panel1);
+            Controls.Add(label4);
+            Controls.Add(PrintBtn);
+            Controls.Add(rjButton2);
+            Controls.Add(MedicineTb);
+            Controls.Add(label11);
+            Controls.Add(CostTb);
+            Controls.Add(label2);
+            Controls.Add(PatIdCb);
+            Controls.Add(TestidCb);
+            Controls.Add(DocIdCb);
+            Controls.Add(TestTb);
+            Controls.Add(label1);
+            Controls.Add(PatNameTb);
+            Controls.Add(label9);
+            Controls.Add(DocNameTb);
+            Controls.Add(label3);
+            Controls.Add(panel6);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "prescription";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "prescription";
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PreseriptionDG).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -455,23 +497,26 @@
         private PictureBox pictureBox15;
         private PictureBox pictureBox11;
         private Label label12;
-        private TextBox textBox5;
+        private TextBox TestTb;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox PatNameTb;
         private Label label9;
-        private TextBox textBox1;
+        private TextBox DocNameTb;
         private Label label3;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
-        private TextBox textBox3;
+        private ComboBox DocIdCb;
+        private ComboBox TestidCb;
+        private ComboBox PatIdCb;
+        private TextBox CostTb;
         private Label label2;
-        private TextBox textBox4;
+        private TextBox MedicineTb;
         private Label label11;
-        private CustomControls.RJControls.RJButton rjButton3;
+        private CustomControls.RJControls.RJButton PrintBtn;
         private CustomControls.RJControls.RJButton rjButton2;
-        private RichTextBox richTextBox1;
         private Label label4;
         private Panel panel1;
+        private DataGridView PreseriptionDG;
+        private RichTextBox PreTxt;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private PrintPreviewDialog printPreviewDialog1;
     }
 }

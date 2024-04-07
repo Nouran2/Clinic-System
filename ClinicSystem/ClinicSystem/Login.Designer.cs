@@ -29,163 +29,161 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            pictureBox2 = new PictureBox();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            label2 = new Label();
+            label3 = new Label();
+            RoleCb = new ComboBox();
+            UserTb = new TextBox();
+            PasswordTb = new TextBox();
+            LoginBtn = new Button();
+            label4 = new Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Teal;
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(437, 112);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = Color.Teal;
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(437, 112);
+            panel1.TabIndex = 0;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(412, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 27);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(412, 3);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(25, 27);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 10;
+            pictureBox2.TabStop = false;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(21, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(386, 32);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Clinic Management System";
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.Window;
+            label1.Location = new Point(21, 40);
+            label1.Name = "label1";
+            label1.Size = new Size(386, 32);
+            label1.TabIndex = 1;
+            label1.Text = "Clinic Management System";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(162, 103);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(101, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(162, 103);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(101, 83);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(55, 303);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 23);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Username";
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.Teal;
+            label2.Location = new Point(55, 303);
+            label2.Name = "label2";
+            label2.Size = new Size(111, 23);
+            label2.TabIndex = 3;
+            label2.Text = "Username";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(59, 373);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 23);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Password";
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Teal;
+            label3.Location = new Point(59, 373);
+            label3.Name = "label3";
+            label3.Size = new Size(107, 23);
+            label3.TabIndex = 4;
+            label3.Text = "Password";
             // 
-            // comboBox1
+            // RoleCb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Admin",
-            "Doctor",
-            "Receptionist"});
-            this.comboBox1.Location = new System.Drawing.Point(103, 236);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(222, 28);
-            this.comboBox1.TabIndex = 5;
+            RoleCb.FormattingEnabled = true;
+            RoleCb.Items.AddRange(new object[] { "Admin", "Doctor", "Receptionist" });
+            RoleCb.Location = new Point(103, 236);
+            RoleCb.Name = "RoleCb";
+            RoleCb.Size = new Size(222, 28);
+            RoleCb.TabIndex = 5;
             // 
-            // textBox1
+            // UserTb
             // 
-            this.textBox1.Location = new System.Drawing.Point(188, 303);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 27);
-            this.textBox1.TabIndex = 6;
+            UserTb.Location = new Point(188, 303);
+            UserTb.Name = "UserTb";
+            UserTb.Size = new Size(180, 27);
+            UserTb.TabIndex = 6;
             // 
-            // textBox2
+            // PasswordTb
             // 
-            this.textBox2.Location = new System.Drawing.Point(188, 369);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 27);
-            this.textBox2.TabIndex = 7;
+            PasswordTb.Location = new Point(188, 369);
+            PasswordTb.Name = "PasswordTb";
+            PasswordTb.Size = new Size(180, 27);
+            PasswordTb.TabIndex = 7;
             // 
-            // button1
+            // LoginBtn
             // 
-            this.button1.AutoEllipsis = true;
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.Window;
-            this.button1.Location = new System.Drawing.Point(114, 460);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 42);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = false;
+            LoginBtn.AutoEllipsis = true;
+            LoginBtn.BackColor = Color.Teal;
+            LoginBtn.BackgroundImageLayout = ImageLayout.None;
+            LoginBtn.FlatStyle = FlatStyle.Flat;
+            LoginBtn.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginBtn.ForeColor = SystemColors.Window;
+            LoginBtn.Location = new Point(114, 460);
+            LoginBtn.Name = "LoginBtn";
+            LoginBtn.Size = new Size(187, 42);
+            LoginBtn.TabIndex = 8;
+            LoginBtn.Text = "Login";
+            LoginBtn.UseVisualStyleBackColor = false;
+            LoginBtn.Click += LoginBtn_Click;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(175, 505);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 23);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Reset";
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Underline, GraphicsUnit.Point);
+            label4.ForeColor = Color.Teal;
+            label4.Location = new Point(175, 505);
+            label4.Name = "label4";
+            label4.Size = new Size(66, 23);
+            label4.TabIndex = 9;
+            label4.Text = "Reset";
+            label4.Click += label4_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 596);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(437, 596);
+            Controls.Add(label4);
+            Controls.Add(LoginBtn);
+            Controls.Add(PasswordTb);
+            Controls.Add(UserTb);
+            Controls.Add(RoleCb);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(pictureBox1);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Form1";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -195,10 +193,10 @@
         private PictureBox pictureBox1;
         private Label label2;
         private Label label3;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private ComboBox RoleCb;
+        private TextBox UserTb;
+        private TextBox PasswordTb;
+        private Button LoginBtn;
         private Label label4;
         private PictureBox pictureBox2;
     }
